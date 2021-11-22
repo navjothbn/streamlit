@@ -4,10 +4,13 @@ import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
 
+
+
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
+            theme-dark {visibility: hidden;}
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
@@ -34,7 +37,7 @@ def get_layers(url):
 
 
 def app():
-    st.subheader("Add Web Map Service (WMS)")
+    # st.subheader("Add Web Map Service (WMS)")
     
     # st.markdown(
     #     """
@@ -45,7 +48,7 @@ def app():
     # )
 
     row1_col1, row1_col2 = st.columns([3, 1.3])
-    width = 800
+    width = 500
     height = 600
     layers = None
 
