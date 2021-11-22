@@ -6,14 +6,13 @@ st.set_page_config(layout="wide")
 
 
 
-# hide_streamlit_style = """
-#             <style>
-#             #MainMenu {visibility: hidden;}
-#             footer {visibility: hidden;}
-#             theme-dark {visibility: hidden;}
-#             </style>
-#             """
-# st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.markdown(
         f"""
 <style>
@@ -22,6 +21,7 @@ st.markdown(
         padding-right: 2rem;
         padding-left: 5rem;
         padding-bottom: 0rem;
+        background-color: #ffffff;
     }}
    
 </style>
