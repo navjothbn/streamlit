@@ -17,9 +17,9 @@ st.markdown(
         f"""
 <style>
     .reportview-container .main .block-container{{
-        padding-top: 2rem;
-        padding-right: 2rem;
-        padding-left: 5rem;
+        padding-top: 2%;
+        padding-right: 2%;
+        padding-left: 6%;
         padding-bottom: 0rem;
         background-color: #ffffff;
     }}
