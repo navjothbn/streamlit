@@ -48,7 +48,7 @@ def app():
 
     row1_col1, row1_col2 = st.columns([3, 1.3])
     width = 500
-    height = 600
+    height = 100
     layers = None
 
     with row1_col2:
