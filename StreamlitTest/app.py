@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 
 hide_streamlit_style = """
             <style>
-            #MainMenu {visibility: hidden;}
+            
             footer {visibility: hidden;}
             </style>
             """
@@ -20,7 +20,7 @@ st.markdown(
         padding-right: 2%;
         padding-left: 6%;
         padding-bottom: 0rem;
-        background-color: #ffffff;
+    
     }}
    
 </style>
